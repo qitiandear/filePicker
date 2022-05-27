@@ -22,8 +22,8 @@ task androidSourcesJar(type: Jar) {
 publishing {
     publications {
         dev(MavenPublication) {//dev是我取的名称，可以自定义
-            groupId = 'io.github.qitiandear'//域名反写
-            artifactId = 'file_picker'//aar的名称
+            groupId = 'com.github.qitiandear'//域名反写
+            artifactId = 'library'//aar的名称
             version = '1.0.1'//版本号
             artifact(androidSourcesJar)//将源码打包进aar，如果不需要可以去掉
             artifact(androidJavadocsJar)//将注释打包进aar，如果不需要可以去掉

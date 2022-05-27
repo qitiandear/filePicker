@@ -19,7 +19,7 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file('D:\\project\\fptq.jks')  //路径D:\project
+            storeFile file('../app/fptq.jks')  //路径D:\project
             storePassword '123456'
             keyAlias 'fptq'
             keyPassword '123456'
